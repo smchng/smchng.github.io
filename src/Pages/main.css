@@ -1,0 +1,22 @@
+.title {
+  /* font-weight: light; */
+  /* font-size: 3rem;
+
+  letter-spacing: 8px; */
+  margin: 200px auto 0px 38px;
+
+  font-size: 4.75rem;
+  letter-spacing: 3px;
+  color: #28282a;
+  font-family: "Kepler-std", serif;
+  /* font-style: italic; */
+  margin-top: 8rem;
+  line-height: 4rem;
+}
+.desc {
+  color: rgb(125, 125, 125);
+  font-size: 14px;
+  font-style: italic;
+  margin: 0rem 0 90px 38px;
+  /* margin-left: 38px; */
+}

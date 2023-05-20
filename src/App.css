@@ -1,0 +1,20 @@
+* {
+  font-family: "Kaisei HarunoUmi", serif;
+  background-color: #ffffff;
+  background-image: url(bg.png);
+  /* color: #28282a; */
+  cursor: none;
+  /* border: 1px solid red; */
+  margin-right: 1px;
+}
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red; /* replace with desired color */
+  pointer-events: none;
+  z-index: 9999;
+}

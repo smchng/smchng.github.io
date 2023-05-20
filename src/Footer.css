@@ -1,0 +1,35 @@
+.footer-container {
+  font-size: 10px;
+  font-weight: 550;
+  margin: 5rem 38px 1rem 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding-left: 10px;
+}
+.footer-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+.links :hover {
+  color: grey;
+  font-style: italic;
+}
+.links a {
+  margin-right: 15px;
+}
+
+.inline {
+  display: inline-block;
+  line-height: 8px;
+}
+
+.slash {
+  padding-right: 15px;
+}

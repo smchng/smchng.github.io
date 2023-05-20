@@ -1,0 +1,119 @@
+@media (min-width: 5px) {
+  .item {
+    flex: 0 0 100%;
+  }
+
+  .home-container {
+    margin-left: 38px;
+  }
+
+  .name {
+    margin-top: 2rem;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: light;
+    letter-spacing: 2px;
+    color: rgb(159, 157, 164);
+  }
+
+  /* .lastName {
+  color: rgb(159, 157, 164);
+}
+
+.firstName {
+  line-height: 4rem;
+} */
+
+  .long-line {
+    margin-top: 1rem;
+    margin-left: -38rem;
+  }
+
+  .subtext {
+    font-size: 5.75rem;
+    letter-spacing: 3px;
+    color: #28282a;
+    font-family: "Kepler-std", serif;
+    font-style: italic;
+    line-height: 4rem;
+    margin: 5rem 38px 5rem 0;
+  }
+  .list {
+    flex-wrap: wrap;
+    display: flex;
+    color: rgb(125, 125, 125);
+    font-size: 15px;
+    list-style: circle inside;
+    padding: 0;
+    margin: 0;
+  }
+  .list-item::before {
+    content: "\2022"; /* use a bullet character as the marker */
+    margin-right: 0.5em; /* adjust the spacing between the marker and the text */
+  }
+
+  .list-item {
+    font-style: italic;
+    padding-left: 10px;
+    color: rgb(159, 157, 164);
+  }
+
+  .projects-container {
+    display: flex;
+    /* max-width: 100%; */
+    margin: 1rem 0 0 -28px;
+    gap: 10px;
+  }
+  /* .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #28282a;
+    z-index: 1;
+  } */
+
+  .project-name {
+    font-size: 5rem;
+    position: absolute;
+    color: white;
+    margin-top: -6rem;
+    margin-left: 10px;
+    background-color: transparent;
+    background-image: none;
+    font-family: "Kepler-std", serif;
+    /* font-style: italic; */
+  }
+  .project-name-hover {
+    display: none;
+  }
+}
+
+@media (min-width: 1250px) {
+  .subtext {
+    margin: 10rem 0 10rem 0;
+  }
+}
+@media (max-width: 800px) {
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .subtext {
+    font-size: 4rem;
+    line-height: 3rem;
+  }
+  .project-name-hover {
+    font-size: 5rem;
+    position: absolute;
+    color: white;
+    margin-top: -6rem;
+    margin-left: 10px;
+    background-color: transparent;
+    background-image: none;
+    font-family: "Kepler-std", serif;
+    font-style: italic;
+    display: block;
+  }
+}

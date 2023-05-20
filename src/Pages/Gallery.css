@@ -1,0 +1,160 @@
+@media (min-width: 5px) {
+  /**********IN GALLERY********/
+  /********** Testing... Row version *******/
+  .galleryImages {
+    flex: 1 0 auto;
+    margin: 5px;
+  }
+  .galleryImages img,
+  .galleryImages video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .gallery-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right: 5px;
+
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  /************* IN CLASSES ************/
+  /* Borders */
+  img,
+  video {
+    background-color: #f0efef;
+    border: 1px solid black;
+    padding: 2px;
+  }
+  /* The size of the images and placement layout */
+  .image-wrapper {
+    position: relative;
+    margin: 5px;
+    box-sizing: border-box;
+
+    height: 525px;
+  }
+  /* Hover animation scale */
+  .image-wrapper:hover {
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.02);
+    z-index: 2;
+  }
+  .image-wrapper:hover::after {
+    content: "";
+    position: absolute;
+    overflow: visible;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 15%;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.25)
+    );
+    z-index: 1;
+  }
+  /* Carousel animation */
+  .carouselImage {
+    transition: opacity 0.5s ease-in-out;
+    position: absolute;
+    opacity: 1;
+  }
+  /* Image when hovered */
+  .carouselImage.active {
+    opacity: 1;
+  }
+  .active {
+    opacity: 1;
+    z-index: 1;
+  }
+  /* Image when resting */
+  .image:not(.active) {
+    z-index: 0;
+  }
+  /* Image hover Desciption */
+  .img-name {
+    position: absolute;
+    z-index: 3;
+    background-color: transparent;
+    padding: 0 5px 0 5px;
+    color: white;
+    font-family: "Kepler-std", serif;
+    vertical-align: bottom;
+    margin-left: 10px;
+    font-size: 1.25rem;
+    background-image: none;
+    transition: opacity 0.5s ease-in-out;
+    bottom: 5px;
+    /* font-style: italic; */
+  }
+
+  /*******MODAL ENLARGE OVERLAY******/
+  /* Opens the modal */
+  .image-container.modal-open {
+    overflow: hidden;
+  }
+  /* The image overlaying and enlarging */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+  }
+  /* The gray bg that you can click */
+  .modal-bg {
+    background: transparent;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+  }
+  /* Sizing of modal image */
+  .modal img,
+  .modal video {
+    width: auto;
+    height: 40vw;
+  }
+}
+
+@media (max-width: 1500px) {
+  .image-wrapper {
+    height: 400px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .image-wrapper {
+    height: 300px;
+  }
+  .modal img {
+    height: 60vw;
+  }
+}
+@media (max-width: 1000px) {
+  .gallery-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .image-wrapper {
+    height: 400px;
+  }
+}
+@media (max-width: 800px) {
+  .gallery-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .image-wrapper {
+    height: 600px;
+  }
+}

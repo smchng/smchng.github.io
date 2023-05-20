@@ -1,0 +1,138 @@
+@media (min-width: 5px) {
+  .about-container {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    gap: 15px;
+  }
+  .about-inline {
+    flex: 1;
+  }
+  .grid-item1 {
+    grid-column: span 6;
+  }
+  /* text Blurb */
+  .bio {
+    max-width: 80%;
+    margin-top: 5rem;
+    font-style: normal;
+    color: #28282a;
+  }
+  /* service list title and items */
+  .service-title {
+    /* color: rgb(125, 125, 125); */
+    font-size: 14px;
+    /* font-style: italic; */
+    padding: 0;
+    margin: 0;
+  }
+  .service-item {
+    color: rgb(125, 125, 125);
+    font-size: 12px;
+    /* font-style: italic; */
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+  }
+  .service-list {
+    margin-top: 1rem;
+  }
+
+  .resume-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 10px 0 38px;
+    font-size: 13px;
+  }
+  .resume-title {
+    color: rgb(125, 125, 125);
+    margin-bottom: 8px;
+  }
+  .resume-spacing {
+    margin-bottom: 0;
+  }
+  .company {
+    display: inline-block;
+    margin-top: 0;
+  }
+  .date {
+    float: right;
+    margin-right: 25px;
+    color: rgb(125, 125, 125);
+  }
+
+  .half-line {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .resume-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* .image {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  position: absolute;
+  width: 800px;
+  height: auto;
+} */
+/* 
+.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.image:not(.active) {
+  z-index: 0;
+} */
+
+/* .title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+} */
+
+/***** WORKING Columns Version *****/
+/* .galleryImages img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.image-wrapper {
+  position: relative;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.gallery-wrapper {
+  column-count: 5;
+  column-gap: 10px;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+} */
+
+/********** WORKING Row version *******/
+/* .galleryImages {
+  flex: 1 0 auto;
+  height: 200px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+.galleryImages img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.gallery-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+} */

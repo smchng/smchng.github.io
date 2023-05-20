@@ -1,0 +1,61 @@
+.project-title {
+  margin: 2rem 0 0 38px;
+  font-size: 1.5rem;
+  color: rgb(159, 157, 164);
+}
+
+.banner {
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+  border: none;
+}
+.project-overview {
+  margin: 5px 0 2rem 38px;
+  font-size: 3rem;
+  color: #28282a;
+  font-family: Kepler-std, serif;
+  line-height: 2.5rem;
+  max-width: 70vw;
+}
+a.extLink {
+  color: #28282a;
+  text-decoration: none;
+}
+a.extLink:hover {
+  color: rgb(159, 157, 164);
+  font-style: italic;
+}
+.body {
+  font-size: 14px;
+  color: #28282a;
+  margin: 5px 0 0 0;
+  max-width: 60vw;
+}
+.body-highlight {
+  font-size: 15px;
+  color: #111111;
+  margin: 1rem 0 0 0;
+  max-width: 60vw;
+  font-style: italic;
+}
+strong {
+  font-weight: 500;
+  color: rgb(159, 157, 164);
+}
+
+.figure-container {
+  display: flex;
+}
+
+.figureImg {
+  object-fit: cover;
+  width: 100%;
+  height: 50vh;
+  max-width: 95vw;
+}
+
+figure,
+video {
+  margin: 1rem 10px 2rem 0;
+}
