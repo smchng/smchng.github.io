@@ -1,7 +1,7 @@
 .footer-container {
   font-size: 10px;
   font-weight: 550;
-  margin: 5rem 38px 1rem 38px;
+  margin: 5rem 10px 1rem 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,4 +32,10 @@
 
 .slash {
   padding-right: 15px;
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    font-size: 8px;
+  }
 }

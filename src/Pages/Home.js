@@ -13,7 +13,7 @@ const projectImgs = [
   { src: project2, alt: "Project 2" },
   // { src: project3, alt: "Project 3" },
 ];
-const projectNames = ["PAVILION", "coming soon"];
+const projectNames = ["PAVILION", "COMING SOON"];
 
 export default function Home() {
   return (

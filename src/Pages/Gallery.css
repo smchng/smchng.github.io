@@ -3,7 +3,7 @@
   /********** Testing... Row version *******/
   .galleryImages {
     flex: 1 0 auto;
-    margin: 5px;
+    margin: 65px 60px 65px 60px;
   }
   .galleryImages img,
   .galleryImages video {
@@ -13,8 +13,9 @@
   }
   .gallery-wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin-right: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 30px;
+    margin-left: 30px;
 
     /* display: flex;
     flex-wrap: wrap;
@@ -36,7 +37,7 @@
     margin: 5px;
     box-sizing: border-box;
 
-    height: 525px;
+    height: 500px;
   }
   /* Hover animation scale */
   .image-wrapper:hover {
@@ -88,7 +89,7 @@
     font-family: "Kepler-std", serif;
     vertical-align: bottom;
     margin-left: 10px;
-    font-size: 1.25rem;
+    font-size: 2rem;
     background-image: none;
     transition: opacity 0.5s ease-in-out;
     bottom: 5px;
@@ -130,14 +131,21 @@
 
 @media (max-width: 1500px) {
   .image-wrapper {
-    height: 400px;
+    height: 450px;
+  }
+  .galleryImages {
+    margin: 25px 20px 25px 20px;
   }
 }
 
 @media (max-width: 1200px) {
   .image-wrapper {
-    height: 300px;
+    height: 450px;
   }
+  .galleryImages {
+    margin: 25px 20px 25px 20px;
+  }
+
   .modal img {
     height: 60vw;
   }
@@ -146,8 +154,11 @@
   .gallery-wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
+  .galleryImages {
+    margin: 25px 20px 25px 20px;
+  }
   .image-wrapper {
-    height: 400px;
+    height: 450px;
   }
 }
 @media (max-width: 800px) {
