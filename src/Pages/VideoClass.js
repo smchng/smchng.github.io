@@ -59,12 +59,11 @@ class Video extends React.Component {
               loop
               onClick={this.handleModalOpen}
             />
-            {this.state.isHovering && (
+            {/* {this.state.isHovering && (
               <div className=" img-name animate__animated animate__zoomIn animate__faster">
                 {projectNames}
               </div>
-            )}
-            {/* </video> */}
+            )} */}
           </div>
         </div>
 

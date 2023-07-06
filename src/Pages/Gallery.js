@@ -81,13 +81,28 @@ function Gallery() {
   return (
     <div className="gallery-container">
       <div className="title">{capitalizeText("Gallery")}</div>
+
+      <div className="filters">
+        <div className="filters-name">VIEW ALL</div>
+        <p className="inline slash">/</p>
+        <div className="filters-name">{`Graphic Design`.toUpperCase()}</div>
+        <p className="inline slash">/</p>
+        <div className="filters-name">{`3D Modelling`.toUpperCase()}</div>
+        <p className="inline slash">/</p>
+        <div className="filters-name">{`VideoGraphy`.toUpperCase()}</div>
+        <p className="inline slash">/</p>
+        <div className="filters-name">{`wireframing`.toUpperCase()}</div>
+        <p className="inline slash">/</p>
+        <div className="filters-name">{`more`.toUpperCase()}</div>
+      </div>
+
       {/* <div className="half-line">
         <hr />
       </div> */}
-      <div className="desc">
+      {/* <div className="desc">
         View more work by me. Ranging from Photography, 3D modelling, VFX, and
         graphic design
-      </div>
+      </div> */}
       {/* <div className="gallery-wrapper">
         {imgList.map((img, index) => (
           <div key={index} className="galleryImages">

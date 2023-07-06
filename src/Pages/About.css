@@ -36,11 +36,15 @@
   .service-list {
     margin-top: 1rem;
   }
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
 
   .resume-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0 10px 0 38px;
+    margin: 0 10px 3rem 38px;
     font-size: 13px;
   }
   .resume-title {

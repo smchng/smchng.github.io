@@ -10,7 +10,7 @@
 }
 .footer-container a {
   text-decoration: none;
-  color: black;
+  color: grey;
 }
 
 .links {
@@ -18,21 +18,21 @@
   justify-content: flex-end;
 }
 .links :hover {
-  color: grey;
+  color: black;
   font-style: italic;
 }
 .links a {
   margin-right: 15px;
 }
 
-.inline {
+/* .inline {
   display: inline-block;
   line-height: 8px;
 }
 
 .slash {
   padding-right: 15px;
-}
+} */
 
 @media (max-width: 600px) {
   .footer-container {

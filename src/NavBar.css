@@ -1,26 +1,34 @@
 /* All links on Nav */
-/* .navBar {
-  position: fixed;
-} */
 
-.navBar a {
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.navContent {
+  display: inline;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.pageContainer a {
   color: inherit;
   text-decoration: none;
   font-weight: light;
   font-weight: 400;
   font-size: 10px;
   align-items: left;
-  text-transform: uppercase;
 }
 /* Clickable links */
-.navContainer {
+.pageContainer {
   list-style: none;
-  padding: 0;
+  padding: 0rem;
   display: flex;
   gap: 5rem;
-  line-height: 0rem;
-  margin-top: 30px;
-  margin-left: 0;
+
+  margin-left: 38px;
 }
 
 .activeLink {
@@ -33,4 +41,39 @@
 .inactiveLink :hover {
   color: black;
   font-style: italic;
+}
+
+.extContainer {
+  gap: 0rem;
+}
+
+.slash {
+  margin: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.extLinks {
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.extName:hover {
+  color: black;
+  font-style: italic;
+}
+.extContainer {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  text-align: right;
+
+  margin-right: 12px;
+}
+.extContainer a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 10px;
 }

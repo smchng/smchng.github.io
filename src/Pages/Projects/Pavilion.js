@@ -1,6 +1,7 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { CursorContext } from "./Cursor/CursorContext.js";
 import "./Projects.css";
+
 import banner from "./PavilionImgs/Main Pic.png";
 import map1 from "./PavilionImgs/map1.png";
 import map2 from "./PavilionImgs/map3.png";
@@ -12,6 +13,8 @@ import d2 from "./PavilionImgs/3d2.png";
 import iso1 from "./PavilionImgs/iso2.jpg";
 import render from "./PavilionImgs/render.mp4";
 import walkthrough from "./PavilionImgs/vid.mp4";
+
+const mapImgs = [map1, map2];
 
 function Pavilion() {
   const { handleHover, handleHoverExit } = useContext(CursorContext);
@@ -257,13 +260,14 @@ function Pavilion() {
           enticing people to interact with and appreciate the pavilion's
           presence amidst the natural beauty of Holland Park.
         </p>
-        <div className="figure-container">
-          <figure>
+        <div>
+          {/* <figure>
             <img className="figureImg" src={map1}></img>
           </figure>
           <figure>
             <img className="figureImg" src={map2}></img>
-          </figure>
+          </figure> */}
+          <ImageCarousel imgs={mapImgs} />
         </div>
 
         <p className="body-highlight">
@@ -373,9 +377,9 @@ function Pavilion() {
           <video autoPlay muted loop>
             <source className="figureImg" src={render} type="video/mp4" />
           </video>
-          <figure>
+          {/* <figure>
             <img className="figureImg" src={iso1}></img>
-          </figure>
+          </figure> */}
         </div>
       </div>
       <div className="project-title " id="final">
@@ -386,6 +390,35 @@ function Pavilion() {
           </video>
         </div>
       </div>
+    </div>
+  );
+}
+
+function ImageCarousel({ imgs }) {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  // useEffect(() => {
+  //   const intervalId = setInterval(() => {
+  //     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imgs.length);
+  //   }, 2000);
+
+  //   return () => {
+  //     clearInterval(intervalId);
+  //   };
+  // }, [imgs.length]);
+  return (
+    <div className="image-wrapper">
+      {imgs.map((image, index) => (
+        <div key={index}>
+          <img
+            src={image}
+            className={`carouselImage ${
+              index === currentImageIndex ? "active" : ""
+            }`}
+            alt="carousel"
+          />
+        </div>
+      ))}
     </div>
   );
 }

@@ -16,6 +16,8 @@ function App() {
   return (
     <>
       <CursorProvider>
+        {" "}
+        <div className="allContainer"></div>
         <NavBar />
         <Cursor />
         <div className="container">
@@ -27,7 +29,7 @@ function App() {
             <Route path="/*" element={<Error />} />
           </Routes>
         </div>
-        <Footer />
+        <Footer />{" "}
       </CursorProvider>
     </>
   );

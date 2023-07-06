@@ -18,12 +18,13 @@
   line-height: 2.5rem;
   max-width: 70vw;
 }
+
 a.extLink {
-  color: #28282a;
+  color: rgb(159, 157, 164);
   text-decoration: none;
 }
 a.extLink:hover {
-  color: rgb(159, 157, 164);
+  color: #28282a;
   font-style: italic;
 }
 .body {

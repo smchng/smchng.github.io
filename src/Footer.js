@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { CursorContext } from "./Pages/Projects/Cursor//CursorContext.js";
 import "./Footer.css";
-import pdf from "./Files/resume.pdf";
 
 export default function Footer() {
   const { handleHover, handleHoverExit } = useContext(CursorContext);
@@ -9,8 +8,8 @@ export default function Footer() {
     // <div>
     //   <hr />
     <div className="footer-container">
-      <p className="inline">{capitalizeText("Samantha Chung Ⓒ 2023")}</p>
-      <div className="links inline">
+      <p className="inline">{`Samantha Chung Ⓒ 2023`.toUpperCase()}</p>
+      {/* <div className="links inline">
         <a
           href={pdf}
           target="_blank"
@@ -38,12 +37,8 @@ export default function Footer() {
         >
           {capitalizeText("Email")}
         </a>
-      </div>
+      </div> */}
     </div>
     // </div>
   );
-}
-
-function capitalizeText(text) {
-  return text.toUpperCase();
 }

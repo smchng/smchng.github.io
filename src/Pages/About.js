@@ -48,33 +48,56 @@ export default function About() {
         <div></div>
         <div></div>
         <div></div>
-        {/* <div className="about-inline service-list ">
-          <ul className="service-title">{capitalizeText("skills")}</ul>
-          <ul className="service-item">prototyping</ul>
-          <ul className="service-item">3D modelling</ul>
-          <ul className="service-item"> web design</ul>
-          <ul className="service-item">web development</ul>
-          <ul className="service-item">motion graphics</ul>
-          <ul className="service-item"> wiring framing</ul>
-          <ul className="service-item">marketing design</ul>
-          <ul className="service-item">photo editing</ul>
-          <ul className="service-item">video editing</ul>
+      </div>
+      <div className=" resume-container">
+        <div className="about-inline service-list ">
+          <p className="resume-title">{capitalizeText("Skills")}</p>
+          <hr className="half-line" />
+          <div className="skills-list">
+            <div>
+              <ul className="service-item">prototyping</ul>
+              <ul className="service-item">3D modelling</ul>
+              <ul className="service-item"> web design</ul>
+            </div>
+            <div>
+              <ul className="service-item">web development</ul>
+              <ul className="service-item">motion graphics</ul>
+              <ul className="service-item"> wiring framing</ul>
+            </div>
+            <div>
+              <ul className="service-item">marketing design</ul>
+              <ul className="service-item">photo editing</ul>
+              <ul className="service-item">video editing</ul>
+            </div>
+            <div></div>
+          </div>
         </div>
 
         <div className="about-inline service-list">
-          <ul className="service-title">{capitalizeText("tools")}</ul>
-          <ul className="service-item">Adobe CC</ul>
-          <ul className="service-item">Rhino</ul>
-          <ul className="service-item">OnShape</ul>
-          <ul className="service-item"> Maya</ul>
-          <ul className="service-item">Figma</ul>
-          <ul className="service-item">HTML</ul>
-          <ul className="service-item">CSS</ul>
-          <ul className="service-item">JS</ul>
-          <ul className="service-item">Java</ul>
-          <ul className="service-item">Python</ul>
-          <ul className="service-item">React</ul>
-        </div> */}
+          <p className="resume-title">{capitalizeText("Tools")}</p>
+          <hr className="half-line" />
+          <div className="skills-list">
+            <div>
+              <ul className="service-item">Adobe CC</ul>
+              <ul className="service-item">Rhino</ul>
+              <ul className="service-item">OnShape</ul>
+
+              <ul className="service-item"> Maya</ul>
+            </div>
+            <div>
+              <ul className="service-item">Figma</ul>
+              <ul className="service-item">HTML</ul>
+              <ul className="service-item">CSS</ul>{" "}
+              <ul className="service-item">JS</ul>{" "}
+            </div>{" "}
+            <div>
+              <ul className="service-item">Java</ul>
+              <ul className="service-item">Python</ul>{" "}
+              <ul className="service-item">React</ul>
+            </div>{" "}
+            <div></div>
+          </div>
+        </div>
       </div>
       <div className=" resume-container">
         <div>

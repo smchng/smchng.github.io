@@ -1,11 +1,13 @@
 * {
   font-family: "Kaisei HarunoUmi", serif;
-  background-color: #ffffff;
-  background-image: url(bg.png);
   /* color: #28282a; */
   cursor: none;
   /* border: 1px solid red; */
   margin-right: 1px;
+}
+.allContainer {
+  background-color: #ffffff;
+  background-image: url(bg.png);
 }
 .cursor {
   position: fixed;
