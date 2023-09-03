@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ab343f7.css",
-    "main.js": "/static/js/main.497b38dd.js",
+    "main.css": "/static/css/main.d481bdcc.css",
+    "main.js": "/static/js/main.41e0de4c.js",
     "static/media/ubc.mp4": "/static/media/ubc.b3d4ffa638cb58c6dedb.mp4",
     "static/media/P03 Kinetic Typography Final.mp4": "/static/media/P03 Kinetic Typography Final.32953593d57316c74c01.mp4",
     "static/media/vid.mp4": "/static/media/vid.6b88640c9057eeec8a48.mp4",
@@ -66,11 +66,11 @@
     "static/media/2018 Agenda.jpg": "/static/media/2018 Agenda.1e50dfcef8da0bf23a44.jpg",
     "static/media/2020 Agenda.jpg": "/static/media/2020 Agenda.3c4e34bdceda2e8b024e.jpg",
     "index.html": "/index.html",
-    "main.3ab343f7.css.map": "/static/css/main.3ab343f7.css.map",
-    "main.497b38dd.js.map": "/static/js/main.497b38dd.js.map"
+    "main.d481bdcc.css.map": "/static/css/main.d481bdcc.css.map",
+    "main.41e0de4c.js.map": "/static/js/main.41e0de4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ab343f7.css",
-    "static/js/main.497b38dd.js"
+    "static/css/main.d481bdcc.css",
+    "static/js/main.41e0de4c.js"
   ]
 }
