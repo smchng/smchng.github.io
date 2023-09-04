@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.01a8386c.css",
-    "main.js": "/static/js/main.dcd60f4f.js",
+    "main.css": "/static/css/main.579a2b4d.css",
+    "main.js": "/static/js/main.44148dae.js",
     "static/media/ubc.mp4": "/static/media/ubc.b3d4ffa638cb58c6dedb.mp4",
     "static/media/Milkshake - Short Film.mp4": "/static/media/Milkshake - Short Film.a456d4063c47a163cb1f.mp4",
     "static/media/P03 Kinetic Typography Final.mp4": "/static/media/P03 Kinetic Typography Final.32953593d57316c74c01.mp4",
@@ -25,6 +25,7 @@
     "static/media/chair.mp4": "/static/media/chair.cace0e312dbeb5f81d6e.mp4",
     "static/media/study.mp4": "/static/media/study.0350a017d46043887559.mp4",
     "static/media/esg.png": "/static/media/esg.5c938a79c1242e45085b.png",
+    "static/media/me.jpg": "/static/media/me.db903d12767c9e1509a8.jpg",
     "static/media/map3.png": "/static/media/map3.62e570d394f53af403c8.png",
     "static/media/aloe.png": "/static/media/aloe.1ca4a764dc898b6b8f1b.png",
     "static/media/DSC02636.jpg": "/static/media/DSC02636.ae140db0ab5185990afb.jpg",
@@ -67,11 +68,11 @@
     "static/media/2018 Agenda.jpg": "/static/media/2018 Agenda.1e50dfcef8da0bf23a44.jpg",
     "static/media/2020 Agenda.jpg": "/static/media/2020 Agenda.3c4e34bdceda2e8b024e.jpg",
     "index.html": "/index.html",
-    "main.01a8386c.css.map": "/static/css/main.01a8386c.css.map",
-    "main.dcd60f4f.js.map": "/static/js/main.dcd60f4f.js.map"
+    "main.579a2b4d.css.map": "/static/css/main.579a2b4d.css.map",
+    "main.44148dae.js.map": "/static/js/main.44148dae.js.map"
   },
   "entrypoints": [
-    "static/css/main.01a8386c.css",
-    "static/js/main.dcd60f4f.js"
+    "static/css/main.579a2b4d.css",
+    "static/js/main.44148dae.js"
   ]
 }
