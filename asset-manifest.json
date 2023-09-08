@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.312177d3.css",
+    "main.css": "/static/css/main.e19d95b1.css",
     "main.js": "/static/js/main.8581cf32.js",
     "static/media/ubc.mp4": "/static/media/ubc.b3d4ffa638cb58c6dedb.mp4",
     "static/media/Milkshake - Short Film.mp4": "/static/media/Milkshake - Short Film.a456d4063c47a163cb1f.mp4",
@@ -67,11 +67,11 @@
     "static/media/2018 Agenda.jpg": "/static/media/2018 Agenda.1e50dfcef8da0bf23a44.jpg",
     "static/media/2020 Agenda.jpg": "/static/media/2020 Agenda.3c4e34bdceda2e8b024e.jpg",
     "index.html": "/index.html",
-    "main.312177d3.css.map": "/static/css/main.312177d3.css.map",
+    "main.e19d95b1.css.map": "/static/css/main.e19d95b1.css.map",
     "main.8581cf32.js.map": "/static/js/main.8581cf32.js.map"
   },
   "entrypoints": [
-    "static/css/main.312177d3.css",
+    "static/css/main.e19d95b1.css",
     "static/js/main.8581cf32.js"
   ]
 }
